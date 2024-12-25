@@ -87,7 +87,7 @@
   height: 100%;
 }
 .social {
-  padding-top: 3%;
+  bottom: 48px;
   position: absolute;
   display: flex;
   gap: 30px;
@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 730px) {
   .header {
-    font-size: 18px; /* Smaller font size for header */
+    font-size: 18px;
     letter-spacing: 5px;
   }
   .countdown-timer {
@@ -124,8 +124,6 @@
   }
 
   .social {
-    padding-top: 10%;
-    gap: 20px;
   }
 
   .social path {
@@ -157,11 +155,6 @@
   .timer-txt {
     font-size: 7px;
     letter-spacing: 2.959px;
-  }
-
-  .social {
-    padding-top: 15%;
-    gap: 15px;
   }
 }
 
